@@ -2,13 +2,28 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "assets/img/pexels/circuit.jpeg"
+feature-img: "assets/img/pexels/desk-top.jpeg"
 tags: [About, Test]
 ---
 
-Type on Strap is based on Type Theme, a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+~ Place for my web resume ~
 
-Head over to the [theme's documentation](https://github.io/sylhare/Type-on-Strap) for much more information about Type on Strap or to install this theme on your own Jekyll site.
+Soobin Rim
+srim@sfu.ca
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
- 
+Technical Skills :
+
+
+Education :
+
+Simon Fraser University, Burnaby, BC   |  May 2013 — October 2019
+Zhejiang University, Hangzhou, China   |  May 2015 — October 2019
+-	Bachelor of Science in Computing Science
+-	Bachelor of Engineering in Computer Science and Technology
+-	Dual Degree Program collaborated by Simon Fraser University and Zhejiang University.
+
+
+Languages :
+
+
+Interests :
