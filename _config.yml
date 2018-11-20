@@ -15,7 +15,7 @@ theme_settings:
   header_text: > #two or three lines to describe your site
      <p>This is my personal blog!</p>
      <p>Still working on this page :(</p>
-  header_text_feature_image: assets/img/pexels/wall_e.jpeg
+  header_text_feature_image: assets/img/pexels/look-out.jpeg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
