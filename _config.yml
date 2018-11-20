@@ -1,28 +1,26 @@
 # SITE CONFIGURATION
 baseurl: "/"
-url: "https://Bings00.github.io/"
+url: "https://Bings00.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
   title: Hello, Bingsoo!
-  avatar: https://avatars.githubusercontent.com/Bings00
-  favicon: assets/favicon.ico
+  avatar: assets/img/k_logo.svg
+  favicon: assets/img/profile.jpg
   gravatar: # Email MD5 hash
   description: "A website with blog posts and pages" # used by search engines
 
   # Header and footer text
-  header_text: >
-     <p>Simple is the best!</p>
-
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
-  header_text_feature_image:
+  header_text: > #two or three lines to describe your site
+     <p> For Sweet Coding!</p>
+  header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
+   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
   # Icons
   rss: true
-  email_address: srim@sfu.ca
+  email_address: srim@sfu.ca # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
@@ -31,7 +29,8 @@ theme_settings:
   gitlab:
   github: "Bings00"
   google_plus:
-  instagram:
+  instagram: 
+  keybase:
   linkedin:  # Full URL
   pinterest:
   reddit:
@@ -39,18 +38,20 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: 
+  twitter: # "twitter username"
+  vimeo:
   wordpress:
   youtube:
 
-  # Scripts
+  # Scripts / Features 
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname: 
   katex: true # Enable if using math markup
   portfolio: true
   search: true
   tags: true
-
+  
+  
   # Localization strings
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
@@ -61,7 +62,6 @@ theme_settings:
   str_previous_page: "Prev"
   str_continue_reading: "Continue reading"
   str_javascript_required_disqus: "Please enable JavaScript to view comments."
-  str_search_no_results: "No results found."
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
@@ -87,5 +87,5 @@ sass:
   sass_dir: _sass
   style: :compressed
 plugins: [jekyll-paginate, jekyll-seo-tag]
-theme: jekyll-theme-midnight
+theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
 exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png"]
