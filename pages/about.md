@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About me, Bingsoo!
 permalink: /about/
 feature-img: "assets/img/pexels/book-coffee.jpeg"
 tags: [About, Test]

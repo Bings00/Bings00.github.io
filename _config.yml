@@ -20,7 +20,7 @@ theme_settings:
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
   # Icons
-  rss: true
+  rss: false
   email_address: srim@sfu.ca # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
@@ -30,9 +30,9 @@ theme_settings:
   gitlab:
   github: "Bings00"
   google_plus:
-  instagram: 
+  instagram: "soob_out"
   keybase:
-  linkedin:  # Full URL
+  linkedin: https://www.linkedin.com/in/soobin-rim-9a2794157/ # Full URL
   pinterest:
   reddit:
   soundcloud:
@@ -49,8 +49,8 @@ theme_settings:
   disqus_shortname: 
   katex: true # Enable if using math markup
   portfolio: true
-  search: true
-  tags: true
+  search: false
+  tags: false
   
   
   # Localization strings
