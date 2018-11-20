@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: 
+baseurl: "/"
 url: "https://Bings00.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
@@ -13,7 +13,7 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     <p>Simple is the best!</p>
 
      <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
   header_text_feature_image:
@@ -21,15 +21,15 @@ theme_settings:
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
 
   # Icons
-  rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  rss: true
+  email_address: srim@sfu.ca
   behance:
   bitbucket:
   dribbble:
-  facebook:
+  facebook: 
   flickr:
   gitlab:
-  github: "rohanchandra/type-theme"
+  github: "Bings00"
   google_plus:
   instagram:
   linkedin:  # Full URL
@@ -39,15 +39,17 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "twitter"
+  twitter: 
   wordpress:
   youtube:
 
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  disqus_shortname: 
   katex: true # Enable if using math markup
-  search: false # Enable the search feature
+  portfolio: true
+  search: true
+  tags: true
 
   # Localization strings
   str_follow_on: "Follow on"
@@ -66,11 +68,17 @@ theme_settings:
   google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
 
   # Post navigation
-  post_navigation: false
+  post_navigation: true
 
 # PAGINATION
 paginate: 5
 paginate_path: "blog/page:num"
+
+# PORTFOLIO
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name
 
 # BUILD SETTINGS
 markdown: kramdown
@@ -78,8 +86,6 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: [jekyll-paginate]
-theme: jekyll-theme-type
-exclude:
-  - Gemfile
-  - Gemfile.lock
+plugins: [jekyll-paginate, jekyll-seo-tag]
+theme: jekyll-theme-midnight
+exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png"]
